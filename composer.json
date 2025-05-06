@@ -1,0 +1,24 @@
+{
+    "name": "gd-studio/music-api",
+    "description": "GD Studio's Online Music Platform API - Refactored",
+    "type": "project",
+    "license": "MIT", // 请根据实际情况选择合适的许可证
+    "authors": [
+        {
+            "name": "GD Studio Mod / AI Refactor"
+        }
+    ],
+    "require": {
+        "php": ">=8.1" // 指定所需的最低 PHP 版本
+    },
+    "autoload": {
+        "psr-4": {
+            "GDApi\\": "src/" // 定义 PSR-4 自动加载规则，将 GDApi 命名空间映射到 src/ 目录
+        }
+    },
+    "config": {
+        "optimize-autoloader": true // 优化 Composer 自动加载器性能
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
